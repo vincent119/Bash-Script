@@ -60,4 +60,5 @@ case "$1" in
    status -p ${ES_HOME}/elasticsearch.pid
  ;;
  *)
- echo
+ echo "usage: $0 {start|stop|restart|status}"
+esac
